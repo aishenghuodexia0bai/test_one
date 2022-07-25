@@ -15,7 +15,7 @@ while times<=3:
     elif a<age:
         print('呜呜，猜小了')
         print("")
-    times+=1
+    times+=2
     if times==3:
         b=input("请选择是否继续猜：继续：y,其他任意键退出:")
         if b=='y':
@@ -24,3 +24,4 @@ while times<=3:
             times=4
             print('退出游戏,see you agin')
             time.sleep(2.5)
+         

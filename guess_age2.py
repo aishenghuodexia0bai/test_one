@@ -1,6 +1,6 @@
 import  time
 times=0
-age=18
+age=88888888
 while times<=3:
     a=int(input('盲猜一个年龄：'))
     time.sleep(0.2)
